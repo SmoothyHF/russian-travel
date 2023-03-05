@@ -12,18 +12,18 @@
   <header class="header">
     <div class="header__logo"></div>
     <div class="header__lang-links">
-      <p class="header__lang-link">Ru</p>
-      <p class="header__lang-link">En</p>
+      <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+      <a class="header__lang-link" href="#">En</a>
     </div>
   </header>
   <main class="content">
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div>
-        <img class="lead__image" src="./images/lead-polka.jpg" alt="путь из Пскова до Улан-Удэ">
-        <p class="lead__caption">ваша полка — верхняя</p>
-      </div>
+      <figure class="lead__figure">
+      <img class="lead__image" src="./images/lead-polka.jpg" alt="путь из Пскова до Улан-Удэ">
+      <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
@@ -60,7 +60,7 @@
       <img class="photo-grid__image" src="./images/grid-photos/photo-grid-ergaki.jpg" alt="горный хребет Ергаки">
     </section>
     <section class="places">
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
@@ -73,8 +73,8 @@
           <p class="place__text">На&nbsp;этом Калининградская область не&nbsp;заканчивается. 
             Для путешественника и&nbsp;исследователя там&nbsp;же по&nbsp;соседству&nbsp;&mdash; самая западная точка России, Балтийская коса,&nbsp;&mdash; и&nbsp;немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы и&nbsp;запах стального, прохладного моря.</p>
         </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
@@ -94,8 +94,8 @@
             мечта увидеть северное сияние начинает сбываться с билетом
             в Мурманск.</p>
         </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
@@ -111,8 +111,8 @@
             разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах
             пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
@@ -129,8 +129,8 @@
             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
@@ -149,7 +149,7 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
-      </div>
+      </article>
     </section>
     <section class="cover">
       <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
@@ -162,16 +162,14 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__container">
-      <nav class="footer__link-container">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-      </nav>
-      <p class="footer__copyright">© 2023. Арманд Аллахвердян</p>
-    </div>
+    <nav class="footer__link-container">
+      <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+      <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+      <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+      <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+      <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+    </nav>
+    <p class="footer__copyright">© 2023. Арманд Аллахвердян</p>
   </footer>
 </body>
 
