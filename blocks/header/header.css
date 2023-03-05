@@ -14,13 +14,13 @@
 
 @media all and (max-width: 769px) {
     .header {
-        padding: 28px 24px 48px
+        padding: 28px 24px 48px;
     }
 }
 
 @media all and (max-width: 321px) {
     .header {
         min-height: 42px;
-        padding: 16px 16px 48px
+        padding: 16px 16px 48px;
     }
 }
