@@ -1,0 +1,22 @@
+.cover {
+    max-width: 1184px;
+    padding: 0 48px 92px;
+}
+
+@media all and (max-width: 1140px) {
+    .cover {
+        padding: 0 0 92px;
+    }
+}
+
+@media all and (max-width: 984px) {
+    .cover {
+        padding: 0 0 88px;
+    }
+}
+
+@media all and (max-width: 568px) {
+    .cover {
+        padding: 0 0 64px;
+    }
+}

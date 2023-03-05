@@ -1,0 +1,40 @@
+.place__text {
+    max-width: 484px;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    padding-top: 26px;
+}
+
+.place__text:first-of-type {
+    padding: 0;
+}
+
+@media all and (max-width: 1100px) {
+    .place__text {
+        max-width: 456px;
+    }
+}
+
+@media all and (max-width: 960px) {
+    .place__text {
+        max-width: 352px;
+        font-size: 16px;
+        padding-top: 25px
+    }
+}
+
+@media all and (max-width: 690px) {
+    .place__text {
+        max-width: 288px;
+        padding: 25px 16px 0;
+    }
+
+    .place__text:first-of-type {
+        padding: 0 16px;
+    }
+}

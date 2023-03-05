@@ -1,0 +1,10 @@
+.footer__link-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media all and (max-width: 740px) {
+    .footer__link-container {
+        flex-direction: column;
+    }
+}
