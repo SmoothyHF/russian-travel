@@ -1,4 +1,4 @@
-.header__lang-link_text {
+.header__lang-links_link {
     margin: 0;
     width: 29px;
     height: 28px;
@@ -10,12 +10,12 @@
     color: #FFFFFF;
 }
 
-.header__lang-link_text:first-of-type {
+.header__lang-links_link:first-of-type {
     border-bottom: #FFFFFF 2px solid;
 }
 
 @media all and (max-width:321px) {
-    .header__lang-link_text {
+    .header__lang-links_link {
         width: 22px;
         height: 20px;
         font-size: 18px;
